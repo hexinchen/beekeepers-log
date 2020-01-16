@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { useMutation, useQuery } from "@apollo/react-hooks";
+import { useMutation } from "@apollo/react-hooks";
 import gql from "graphql-tag";
-import { GET_COLONIES } from "./Colonies";
 import { GET_RECENT_COLLECTIONS } from "./Collections";
 import Collections from "./Collections";
 import _ from "lodash";
@@ -17,7 +16,6 @@ import {
   Grid,
   InputAdornment,
   Modal,
-  Paper,
   Snackbar,
   TextField,
   Typography,

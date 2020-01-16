@@ -1,5 +1,5 @@
-import React, { Fragment, useState } from "react";
-import { useQuery, useMutation } from "@apollo/react-hooks";
+import React, { Fragment } from "react";
+import { useQuery } from "@apollo/react-hooks";
 import gql from "graphql-tag";
 import ColonyBlock from "./ColonyBlock";
 import { Grid } from "@material-ui/core";
