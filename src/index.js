@@ -7,6 +7,7 @@ import "./styles/App.css";
 import { Auth0Provider } from "./components/Auth/react-auth0-spa";
 import history from "./utils/history";
 import { AUTH_CONFIG } from "./components/Auth/auth0-variables";
+import App from './components/App';
 
 const onRedirectCallback = appState => {
   history.push(
@@ -32,4 +33,4 @@ const mainRoutes = (
   </Router>
 );
 
-ReactDOM.render(mainRoutes, document.getElementById("root"));
+ReactDOM.render(<App/>, document.getElementById("root"));

@@ -24,16 +24,15 @@ const createApolloClient = authToken => {
 };
 
 const App = ({ idToken }) => {
-  const { loading, logout } = useAuth0();
-  if (loading || !idToken) {
-    return <div>Loading...</div>;
-  }
+  // const { loading, logout } = useAuth0();
+  // if (loading || !idToken) {
+  //   return <div>Loading...</div>;
+  // }
   const client = createApolloClient(idToken);
-  console.log(client);
   return (
     <ApolloProvider client={client}>
       <div>
-        <Header logoutHandler={logout} />
+        <Header />
         <div className="row container-fluid p-left-right-0 m-left-right-0">
           <div className="row p-left-right-0 m-left-right-0">
             <div className="sliderMenu p-30">

@@ -9,9 +9,6 @@ const Header = ({ logoutHandler }) => (
       <h1>BeeKeepers Log</h1>
       <img src={Logo} width="100"/>
     </Navbar.Brand>
-    <Navbar.Collapse className="justify-content-end">
-      <LogoutBtn logoutHandler={logoutHandler} />
-    </Navbar.Collapse>
   </Navbar>
 );
 
