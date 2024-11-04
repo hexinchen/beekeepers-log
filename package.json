@@ -14,7 +14,7 @@
     "@playlyfe/gql": "^2.6.2",
     "apollo-boost": "^0.4.3",
     "apollo-link-ws": "^1.0.17",
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^5.3.3",
     "graphql": "^14.4.2",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
@@ -30,9 +30,9 @@
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react-hooks": "^1.7.0",
     "husky": "^1.0.0-rc.15",
-    "lint-staged": "^7.3.0",
+    "lint-staged": "^15.2.10",
     "prettier": "1.14.3",
-    "react-scripts": "3.2.0"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
